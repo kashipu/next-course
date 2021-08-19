@@ -16,3 +16,19 @@
     - Iniciar un proyecto de npm con el comando
         
         `$ npm init -y`
+    - Instalar paquetes
+        
+        `$ npm install next react react-dom`
+
+    - Implementar los scripts dentro del `packge.json`
+
+        ``` Javascript
+        "dev": "next",
+        "build": "next build",
+        "start": "next start"
+        ```
+
+    ## Creacion carpeta pages 
+    Aquí van a estar incluidas todas las páginas de next 
+
+    
